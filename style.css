@@ -21,9 +21,8 @@ body {
     height: 100%;
     z-index: -1;
     background: 
-        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.9)),
+        linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.85)),
         url('flags.jpg') center/cover no-repeat;
-    opacity: 1;
 }
 
 /* 渐变背景 */
@@ -89,11 +88,12 @@ main {
 }
 
 section {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.92);
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
 }
 
 h2 {
